@@ -31,7 +31,7 @@ void decodeEthernetHeader(FILE* file) {
 
     // Print type
     printf("Type: ");
-    printf("%02x%02x", ethHeader.bType[0], ethHeader.bType[1]);
+    printf("\t\t\t\t %02x%02x", ethHeader.bType[0], ethHeader.bType[1]);
     printf("\n\n");
 
     // Display IPv4 Header info
